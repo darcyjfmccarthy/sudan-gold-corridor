@@ -1,12 +1,13 @@
 streamlit==1.31.1
 pandas==2.1.4
 geopandas==0.14.1
-fiona==1.9.5.post1
+fiona==1.9.4.post1
 pyproj==3.6.1
 shapely==2.0.4
 pydeck==0.9.1
 requests==2.32.3
 python-dotenv==1.0.1
 altair==5.2.0
+
 
 
