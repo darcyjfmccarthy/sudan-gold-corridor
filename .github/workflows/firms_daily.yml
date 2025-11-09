@@ -1,0 +1,26 @@
+name: Fetch FIRMS Daily
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch: 
+
+jobs:
+  update-firms:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+    - run: pip install requests pandas python-dotenv
+    - run: python download_firms.py
+      env:
+        FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+    - name: Commit and push FIRMS update
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add data/raw/firms_sudan_area.csv
+        git commit -m "Daily FIRMS update" || echo "No changes"
+        git push

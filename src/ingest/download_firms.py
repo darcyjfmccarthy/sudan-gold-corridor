@@ -21,14 +21,21 @@ def download_firms(output_path="data/raw/firms_sudan_area.csv"):
     print(f"Requesting FIRMS from: {url}")
 
     r = requests.get(url)
-
     if r.status_code != 200:
         raise Exception(f"Error {r.status_code}: {r.text}")
 
-    with open(output_path, "wb") as f:
-        f.write(r.content)
+    new_df = pd.read_csv(pd.compat.StringIO(r.text))
 
-    print(f"[✓] FIRMS area download → {output_path}")
+    # Load old dataset if exists
+    if os.path.exists(output_path):
+        old_df = pd.read_csv(output_path)
+        combined = pd.concat([old_df, new_df]).drop_duplicates()
+    else:
+        combined = new_df
+
+    combined.to_csv(output_path, index=False)
+    print(f"FIRMS appended to {output_path} (rows: {len(combined)})")
+
 
 if __name__ == "__main__":
     download_firms()
