@@ -1,18 +1,60 @@
 {
 "type": "FeatureCollection",
 "features": [
-  { "type": "Feature", "properties": { "region": "Jebel Amer" },
-    "geometry": { "type": "Polygon", "coordinates": [[[24.120,15.55],[24.30,15.73],[24.12,15.91],[23.94,15.73],[24.120,15.55]]] } },
-  { "type": "Feature", "properties": { "region": "Kutum" },
-    "geometry": { "type": "Polygon", "coordinates": [[[25.34,14.02],[25.52,14.20],[25.34,14.38],[25.16,14.20],[25.34,14.02]]] } },
-  { "type": "Feature", "properties": { "region": "Kabkabiya" },
-    "geometry": { "type": "Polygon", "coordinates": [[[23.62,13.76],[23.80,13.94],[23.62,14.12],[23.44,13.94],[23.62,13.76]]] } },
-  { "type": "Feature", "properties": { "region": "Mellit" },
-    "geometry": { "type": "Polygon", "coordinates": [[[26.29,13.80],[26.47,13.98],[26.29,14.16],[26.11,13.98],[26.29,13.80]]] } },
-  { "type": "Feature", "properties": { "region": "El Fasher" },
-    "geometry": { "type": "Polygon", "coordinates": [[[25.35,13.45],[25.53,13.63],[25.35,13.81],[25.17,13.63],[25.35,13.45]]] } },
-  { "type": "Feature", "properties": { "region": "South Kordofan (Kadugli)" },
-    "geometry": { "type": "Polygon", "coordinates": [[[29.72,10.83],[29.90,11.01],[29.72,11.19],[29.54,11.01],[29.72,10.83]]] } },
-  { "type": "Feature", "properties": { "region": "West Kordofan" },
-    "geometry": { "type": "Polygon", "coordinates": [[[28.15,11.82],[28.33,12.00],[28.15,12.18],[27.97,12.00],[28.15,11.82]]] } }
+  {
+    "type": "Feature",
+    "properties": { "region": "Jebel Amer" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[23.705,13.615],[23.885,13.795],[23.705,13.975],[23.525,13.795],[23.705,13.615]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "region": "Kutum" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[24.667,14.020],[24.847,14.200],[24.667,14.380],[24.487,14.200],[24.667,14.020]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "region": "Kabkabiya" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[24.083,13.470],[24.263,13.650],[24.083,13.830],[23.903,13.650],[24.083,13.470]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "region": "Mellit" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[25.550,13.953],[25.730,14.133],[25.550,14.313],[25.370,14.133],[25.550,13.953]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "region": "El Fasher" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[25.3494,13.4479],[25.5294,13.6279],[25.3494,13.8079],[25.1694,13.6279],[25.3494,13.4479]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "region": "Kadugli (South Kordofan)" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[29.7154,10.8279],[29.8954,11.0079],[29.7154,11.1879],[29.5354,11.0079],[29.7154,10.8279]]]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": { "region": "West Kordofan centroid" },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[28.150,11.820],[28.330,12.000],[28.150,12.180],[27.970,12.000],[28.150,11.820]]]
+    }
+  }
 ]}

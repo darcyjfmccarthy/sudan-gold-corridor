@@ -1,40 +1,40 @@
 {
- "type": "FeatureCollection",
- "features": [
-  {
-   "type": "Feature",
-   "properties": { "region": "Jebel Amer" },
-   "geometry": { "type": "Point", "coordinates": [24.120, 15.730] }
-  },
-  {
-   "type": "Feature",
-   "properties": { "region": "Kutum" },
-   "geometry": { "type": "Point", "coordinates": [25.340, 14.200] }
-  },
-  {
-   "type": "Feature",
-   "properties": { "region": "Kabkabiya" },
-   "geometry": { "type": "Point", "coordinates": [23.620, 13.940] }
-  },
-  {
-   "type": "Feature",
-   "properties": { "region": "Mellit" },
-   "geometry": { "type": "Point", "coordinates": [26.290, 13.980] }
-  },
-  {
-   "type": "Feature",
-   "properties": { "region": "El Fasher" },
-   "geometry": { "type": "Point", "coordinates": [25.3494, 13.6279] }
-  },
-  {
-   "type": "Feature",
-   "properties": { "region": "Kadugli (South Kordofan)" },
-   "geometry": { "type": "Point", "coordinates": [29.7154, 11.0079] }
-  },
-  {
-   "type": "Feature",
-   "properties": { "region": "West Kordofan (centroid)" },
-   "geometry": { "type": "Point", "coordinates": [28.150, 12.000] }
-  }
- ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "region": "Jebel Amer" },
+      "geometry": { "type": "Point", "coordinates": [23.705, 13.795] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "Kutum" },
+      "geometry": { "type": "Point", "coordinates": [24.667, 14.200] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "Kabkabiya" },
+      "geometry": { "type": "Point", "coordinates": [24.083, 13.650] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "Mellit" },
+      "geometry": { "type": "Point", "coordinates": [25.550, 14.133] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "El Fasher" },
+      "geometry": { "type": "Point", "coordinates": [25.3494, 13.6279] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "Kadugli (South Kordofan)" },
+      "geometry": { "type": "Point", "coordinates": [29.7154, 11.0079] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "region": "West Kordofan (centroid)" },
+      "geometry": { "type": "Point", "coordinates": [28.150, 12.000] }
+    }
+  ]
 }
