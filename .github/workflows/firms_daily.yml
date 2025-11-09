@@ -14,7 +14,7 @@ jobs:
       with:
         python-version: "3.10"
     - run: pip install requests pandas python-dotenv
-    - run: python download_firms.py
+    - run: python src/ingest/download_firms.py
       env:
         FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
     - name: Commit and push FIRMS update
